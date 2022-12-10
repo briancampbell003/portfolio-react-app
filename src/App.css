@@ -5,7 +5,7 @@
 :root {
     --primary: rgb(5, 45, 15);
     --secondary: #b0ddda;
-    --tertiary: #eef4b7;
+    --tertiary: #f4c4b7;
     --error: rgb(228, 46, 1);
     --border-radius: 0.3rem;
 }
@@ -31,7 +31,7 @@ h1 {
     border-bottom: 2px solid black;
 }
 .header-brian {
-    color: var(--secondary);
+    color: var(--tertiary);
     margin-left: 10vw;
     margin-top: 15px;
 }
