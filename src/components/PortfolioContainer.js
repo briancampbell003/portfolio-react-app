@@ -5,7 +5,7 @@ import About from './pages/About';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-import tileBg from '../assets/tile-bg.png'
+// import tileBg from '../assets/tile-bg.png'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -17,39 +17,39 @@ export default function PortfolioContainer() {
     console.log(messages);
   }
   
-  const styles = {
-    pageBg: {
-      background: `url("${tileBg}") top right repeat`,
-      backgroundAttachment: 'fixed',
-      backgroundSize: 'cover',
-    },
-    pageBgVh: {
-      background: `url("${tileBg}") top right repeat`,
-      backgroundAttachment: 'fixed',
-      height: '100vh',
-      backgroundSize: 'cover',
-    },
-  };
+  // const styles = {
+  //   pageBg: {
+  //     background: `url("${tileBg}") top right repeat`,
+  //     backgroundAttachment: 'fixed',
+  //     backgroundSize: '300px 300px',
+  //     backgroundRepeat: 'repeat'
+  //   },
+  //   pageBgVh: {
+  //     background: `url("${tileBg}") top right repeat`,
+  //     backgroundAttachment: 'fixed',
+  //     height: '100vh',
+  //     backgroundSize: 'cover',
+  //   },
+  // };
 
-  var bg = styles.pageBgVh;
+  // var bg = styles.pageBg;
 
   // Determine page to render passed on the value of currentPage
   const renderPage = () => {
     if (currentPage === 'About') {
-      bg = styles.pageBgVh;
+      // bg = styles.pageBgVh;
       return <About />;
     }
     if (currentPage === 'Projects') {
-      bg = styles.pageBg;
-      console.log(bg);
+      // bg = styles.pageBg;
       return <Projects />;
     }
     if (currentPage === 'Contact') {
-      bg = styles.pageBgVh;
+      // bg = styles.pageBgVh;
       return <Contact onSubmit={ sendContactForm } />;
     }
     if (currentPage === 'Resume') {
-      bg = styles.pageBg;
+      // bg = styles.pageBg;
       return <Resume />;
     }
   };
@@ -58,7 +58,7 @@ export default function PortfolioContainer() {
 
 
   return (
-    <div style={bg}>
+    <div className="page-frame">
       < Header currentPage={ currentPage } handlePageChange={ handlePageChange } />
         <div className="page-content">
           { renderPage() }

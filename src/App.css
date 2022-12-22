@@ -1,17 +1,30 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
 }
 
 :root {
     --primary: rgb(5, 45, 15);
     --secondary: #b0ddda;
-    --tertiary: #f4c4b7;
+    --tertiary: #87ff2b;
     --error: rgb(228, 46, 1);
     --border-radius: 0.3rem;
 }
 
+.page-frame {
+    position: relative;
+    min-height: 100vh;
+    background: url(./assets/tile-bg.png) top right repeat;
+    background-attachment: fixed;
+    background-size: 300px 300px;
+    background-repeat: repeat;
+}
+
 .page-content {
-    margin: 30px 10vw 0;
+    margin: 30px 15vw 40px;
+    background-color: var(--secondary);
+    padding: 15px 15px 15px 15px;
+    border: var(--tertiary) solid 3px;
 }
 
 h1 {
@@ -86,11 +99,11 @@ h1 {
 /* FOOTER */
 .footer {
     background-color: var(--primary);
-    position: fixed;
+    position: absolute;
     bottom: 0px;
-    margin-bottom: 0;
     height: 40px;
     width: 100%;
+    margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -100,7 +113,7 @@ h1 {
 .footer-link a {
     text-decoration: none;
     color: whitesmoke;
-    margin: 5px 5vw 5px;
+    margin: 5px 5vw;
 }
 .footer-link a:hover {
     font-style: italic;

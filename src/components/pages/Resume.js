@@ -1,11 +1,12 @@
 import React from 'react';
+import ResumePDF from '../../assets/Campbell_Resume2022_WebDev.pdf';
 
 export default function Resume() {
   return (
     <div>
       <h1>→ Resume</h1>
       <p>
-        Download resume as PDF file
+        <a href={ResumePDF} download>Download resume as PDF file</a> 
       </p>
       <p>Education</p>
       <ul>
