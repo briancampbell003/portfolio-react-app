@@ -11,7 +11,7 @@ export default function Projects() {
   const projData = [
     {
       title: 'Dream Jot',
-      deployed: 'https://project-2-october.herokuapp.com/',
+      deployed: 'https://dream-jot.herokuapp.com/',
       repo: 'https://github.com/briancampbell003/dream-jot',
       imgPath: DreamJotBG,
       key: '01',
@@ -32,7 +32,7 @@ export default function Projects() {
     },
     {
       title: 'Varistas Digital Cafe',
-      deployed: 'https://project-2-october.herokuapp.com/',
+      deployed: 'https://briancampbell003.github.io/varistas-digital-cafe/',
       repo: 'https://github.com/briancampbell003/varistas-digital-cafe',
       imgPath: VaristasDigitalCafeBG,
       key: '04',
