@@ -5,8 +5,8 @@
 
 :root {
     --primary: rgb(5, 45, 15);
-    --secondary: #b0ddda;
-    --tertiary: #87ff2b;
+    --secondary: #96d5d1;
+    --tertiary: #2bffff;
     --error: rgb(228, 46, 1);
     --border-radius: 0.3rem;
 }
@@ -24,7 +24,7 @@
     margin: 30px 15vw 40px;
     background-color: var(--secondary);
     padding: 15px 15px 15px 15px;
-    border: var(--tertiary) solid 3px;
+    border: black double 5px;
 }
 
 h1 {
@@ -44,7 +44,7 @@ h1 {
     border-bottom: 2px solid black;
 }
 .header-brian {
-    color: var(--tertiary);
+    color: var(--secondary);
     margin-left: 10vw;
     margin-top: 15px;
 }
@@ -54,7 +54,7 @@ h1 {
 }
 .nav a.active, .nav a:hover {
     font-style: italic;
-    color: var(--tertiary);
+    color: var(--secondary);
 }
 
 /* PROJECTS PAGE */
@@ -82,8 +82,17 @@ h1 {
     display: block;
     text-align: center;
     font-size: larger;
-    color: var(--primary);
-    background-color: var(--secondary);
+    color: var(--secondary);
+    background-color: black;
+    text-decoration: none;
+}
+.proj-title a {
+    font-style: normal;
+    text-decoration: none;
+}
+.proj-title:hover {
+    color: var(--tertiary);
+    font-style: italic;
 }
 .repo-link {
     display: block;
@@ -116,6 +125,7 @@ h1 {
     margin: 5px 5vw;
 }
 .footer-link a:hover {
-    font-style: italic;
     color: whitesmoke;
+    font-style: italic;
+    color: var(--tertiary);
 }
