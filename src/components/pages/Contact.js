@@ -42,6 +42,7 @@ export default function Contact(props) {
   return (
     <div>
       <h1>→ Contact Me</h1>
+      <p class="my-email">brian.campbell003@gmail.com</p>
       <form onSubmit={ handleSubmit }>
         <div className="mb-3">
           <label htmlFor="name-input" className="form-label">Name</label>

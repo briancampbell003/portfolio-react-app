@@ -15,6 +15,8 @@ export default function Projects() {
       repo: 'https://github.com/briancampbell003/dream-jot',
       imgPath: DreamJotBG,
       key: '01',
+      description: 'Digital dream journal with community features',
+      tech: 'Sequelize, ExpressJS, Handlebars'
     },
     {
       title: 'Team Profile Generator',
@@ -22,6 +24,8 @@ export default function Projects() {
       repo: 'https://github.com/briancampbell003/module-10-team-profile-generator',
       imgPath: TeamGenBG,
       key: '02',
+      description: 'Commeand-line application to create stylized page provided team member info',
+      tech: 'Jest, NodeJS, Inquirer, CSS'
     },
     {
       title: 'Weather Dash',
@@ -29,6 +33,8 @@ export default function Projects() {
       repo: 'https://github.com/briancampbell003/weather-dash',
       imgPath: WeatherDashBG,
       key: '03',
+      description: 'Forecast provider using API call to weather app based on user input',
+      tech: 'JavaScript, HMTL, CSS'
     },
     {
       title: 'Varistas Digital Cafe',
@@ -36,6 +42,8 @@ export default function Projects() {
       repo: 'https://github.com/briancampbell003/varistas-digital-cafe',
       imgPath: VaristasDigitalCafeBG,
       key: '04',
+      description: '',
+      tech: ''
     },
     {
       title: 'TechBuzz',
@@ -43,6 +51,8 @@ export default function Projects() {
       repo: 'https://github.com/briancampbell003/tech-buzz',
       imgPath: TechBuzzBG,
       key: '05',
+      description: '',
+      tech: ''
     },
     {
       title: 'Note Taker',
@@ -50,6 +60,8 @@ export default function Projects() {
       repo: 'https://github.com/briancampbell003/module-11-note-taker',
       imgPath: NoteTakerBG,
       key: '06',
+      description: '',
+      tech: ''
     },
   ]
 

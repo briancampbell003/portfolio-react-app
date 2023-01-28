@@ -5,8 +5,8 @@
 
 :root {
     --primary: rgb(5, 45, 15);
-    --secondary: #96d5d1;
-    --tertiary: #2bffff;
+    --secondary: #c0f1ed;
+    --tertiary: #83fcfc;
     --error: rgb(228, 46, 1);
     --border-radius: 0.3rem;
 }
@@ -14,10 +14,12 @@
 .page-frame {
     position: relative;
     min-height: 100vh;
+    height: calc(100% + 40px);
     background: url(./assets/tile-bg.png) top right repeat;
     background-attachment: fixed;
     background-size: 300px 300px;
     background-repeat: repeat;
+    padding-bottom: 40px;
 }
 
 .page-content {
@@ -72,6 +74,10 @@ h1 {
     border: 2px solid var(--primary);
     box-shadow: inset 0 0 40px 20px rgba(29, 37, 27, 0.787) ;
 }
+/* .proj-card:hover {
+    filter: blur(1000);
+    border: 10px solid black;
+} */
 .hide {
     opacity: 0;
 }
@@ -103,6 +109,14 @@ h1 {
 }
 .repo-link:hover {
     opacity: 1 ;
+}
+
+
+/* CONTACT */
+.my-email {
+    margin-left: 10%;
+    font-size: 20px;
+    font-style: italic;
 }
 
 /* FOOTER */
