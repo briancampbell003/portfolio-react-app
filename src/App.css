@@ -79,6 +79,8 @@ h1 {
     border: 10px solid black;
 } */
 .hide {
+    margin-top: -17px;
+    height: 315px;
     opacity: 0;
 }
 .proj-card:hover .hide {
@@ -98,16 +100,37 @@ h1 {
 }
 .proj-title:hover {
     color: var(--tertiary);
-    font-style: italic;
 }
 .repo-link {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
     display: block;
     width: 50px;
-    margin-left: 70%;
-    margin-top: 10px;
-    opacity: .5;
+    margin-left: 80%;
+    margin-top: 15px;
+    opacity: .7;
 }
 .repo-link:hover {
+    color: var(--primary);
+    font-style: italic;
+    opacity: 1 ;
+}
+.deployed-link {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    display: block;
+    width: 50px;
+    margin-left: 80%;
+    margin-top: 15px;
+    opacity: .7;
+}
+.deployed-link:hover {
+    color: var(--primary);
+    font-style: italic;
     opacity: 1 ;
 }
 
@@ -117,6 +140,14 @@ h1 {
     margin-left: 10%;
     font-size: 20px;
     font-style: italic;
+}
+
+/* RESUME */
+.download-link {
+    margin-left: 10%;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 /* FOOTER */
