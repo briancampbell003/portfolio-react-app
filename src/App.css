@@ -149,6 +149,10 @@ h1 {
     text-decoration: none;
     font-weight: bolder;
 }
+.download-link:hover {
+    color: var(--primary);
+    font-style: italic;
+}
 
 /* FOOTER */
 .footer {
