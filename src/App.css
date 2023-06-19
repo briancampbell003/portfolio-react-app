@@ -23,7 +23,7 @@
 }
 
 .page-content {
-    margin: 30px 15vw 40px;
+    margin: 30px 20vw 40px;
     background-color: var(--secondary);
     padding: 15px 15px 15px 15px;
     border: black double 5px;
@@ -47,8 +47,13 @@ h1 {
 }
 .header-brian {
     color: var(--secondary);
-    margin-left: 10vw;
-    margin-top: 15px;
+    margin-left: 18vw;
+    margin-top: -15px;
+}
+.header-campbell {
+    color: var(--secondary);
+    margin-left: -30vw;
+    margin-top: 60px;
 }
 .nav a {
     margin-right: 5vw;
@@ -57,6 +62,19 @@ h1 {
 .nav a.active, .nav a:hover {
     font-style: italic;
     color: var(--secondary);
+}
+.headshot {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    height: 12%;
+    min-height: 150px;
+    width: 12%;
+    background-image: url("./assets/headshot.png");
+    background-size: cover;
+    background-position: center;
+    border: solid whitesmoke 2px;
+    box-shadow: 10px 8px black;
 }
 
 /* PROJECTS PAGE */

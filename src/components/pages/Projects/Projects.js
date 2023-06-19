@@ -3,10 +3,10 @@ import React from 'react';
 import DreamJotBG from './assets/dreamJot.png';
 import TeamGenBG from './assets/teamGen.png';
 import TechBuzzBG from './assets/techBuzz.png';
-import WeatherDashBG from './assets/weatherDash.png';
+// import WeatherDashBG from './assets/weatherDash.png';
 import MhlReloBG from './assets/mhlRelo.png';
 import VaristasDigitalCafeBG from './assets/varistasDigitalCafe.png';
-import NoteTakerBG from './assets/noteTaker.png';
+// import NoteTakerBG from './assets/noteTaker.png';
 import ehpBG from './assets/ehp.png';
 
 export default function Projects() {
@@ -85,7 +85,6 @@ export default function Projects() {
     // },
   ]
 
-  console.log('img path var', DreamJotBG)
   return (
     <div>
       <h1>→ Projects</h1>

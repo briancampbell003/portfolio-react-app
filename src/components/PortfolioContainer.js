@@ -7,6 +7,8 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 // import tileBg from '../assets/tile-bg.png'
 
+import OnePage from './OnePage';
+
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
@@ -60,9 +62,8 @@ export default function PortfolioContainer() {
   return (
     <div className="page-frame">
       < Header currentPage={ currentPage } handlePageChange={ handlePageChange } />
-        <div className="page-content">
-          { renderPage() }
-        </div>
+          < OnePage />
+          {/* { renderPage() } */}
       < Footer />
     </div>
   );
